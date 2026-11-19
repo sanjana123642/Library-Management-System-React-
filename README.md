@@ -1,16 +1,70 @@
-# React + Vite
+# Library Book Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based application for managing college library book records.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add books with Book Name, Book ID, and Author Name
+- Display books using reusable Book Card components
+- Delete books with confirmation
+- Search books by name, author, or ID
+- Form validation
+- Prevent duplicate Book IDs
+- Save records using Local Storage
+- Empty state message when no books are available
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Local Storage
 
-## Expanding the Oxlint configuration
+## React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- Functional Components
+- Props
+- useState
+- useEffect
+- useMemo
+- useRef
+- React.memo
+- Conditional Rendering
+- Event Handling
+- List Rendering
+
+## Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/sanjana123642/Library-Management-System-React-.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd Library-Management-System-React-
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the localhost link displayed in the terminal.
+
+## Author
+
+Sanjana Bashya
+
+B.Tech Computer Science Engineering
